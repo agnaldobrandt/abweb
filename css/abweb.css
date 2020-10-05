@@ -139,7 +139,23 @@ a:hover{
   top:40px;
   cursor:pointer;
 }
-
+.logofooter{
+  position: static;
+  float: right;
+}
+.page-divider {
+  width: 100%;
+  min-height: 450px;
+  height: 100%; 
+  overflow: hidden;
+  background-size: cover;
+}
+.pgd1{
+  background-image: url("../imgs/001.jpg");
+}
+.pgd2{
+  background-image: url("../imgs/002.jpg");
+}
 
 @media only screen and (max-width:319px) {
   .centered-wrapper { width: 94% !important; }
@@ -182,6 +198,20 @@ a:hover{
   }
   
   .menu-icon { display:block !important; right: 20px;  }
+
+  .logofooter{
+    float: none;
+  }
+  .logofooter img{
+    width: 80%;
+  }
+  .page-divider {
+    min-height: 100px;
+    height: 100%;
+  }
+  .pgd2 {
+    margin-top: 90px;
+  }
 }
 
 @media only screen and (min-width:320px) and (max-width:479px) { 
@@ -225,6 +255,20 @@ a:hover{
   }
   
   .menu-icon { display:block !important; right: 20px; }
+
+  .logofooter{
+    float: none;
+  }
+  .logofooter img{
+    width: 80%;
+  }
+  .page-divider {
+    min-height: 200px;
+    height: 100%;
+  }
+  .pgd2 {
+    margin-top: 90px;
+  }
 }
 
 @media only screen and (min-width:480px) and (max-width:767px) {
@@ -268,6 +312,19 @@ a:hover{
   }
   
   .menu-icon { display:block !important; right: 20px; }
+  .logofooter{
+    float: none;
+  }
+  .logofooter img{
+    width: 80%;
+  }
+  .page-divider {
+    min-height: 100px;
+    height: 100%;
+  }
+  .pgd2 {
+    margin-top: 90px;
+  }
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px) { 
@@ -281,16 +338,6 @@ a:hover{
 @media only screen and (min-width:1280px) { 
   .centered-wrapper { width: 1250px !important; }
 }
-.page-divider {
-  margin: 0 auto;
-  width: 100%;
-  min-height: 500px;
-  height: 100%; 
-  overflow: hidden;
-  background-size: cover;
-}
-.pgd1{background-image: url("../imgs/001.jpg");}
-.pgd2{background-image: url("../imgs/002.jpg");}
 
 .card {
   z-index: -210;
@@ -341,9 +388,4 @@ a:hover{
   margin: 0px auto 25px auto;
   text-transform:uppercase;
   font-size:0.9rem;
-}
-
-.logofooter{
-  position: static;
-  float: right;
 }
