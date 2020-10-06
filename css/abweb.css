@@ -95,7 +95,7 @@ a:hover{
 .lighter { background-color : #fff; }
 
 #About { }
-#Services { background : url(img/001.jpg) 50% 0 repeat fixed;  }
+#Services { }
 #Contact { }
  
 .centered-wrapper { margin: 0 auto; max-width: 1250px; overflow: hidden; }
