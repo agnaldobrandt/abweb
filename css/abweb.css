@@ -31,7 +31,7 @@ a:hover{
   color: #0099CC;
 }
 #header {
-  z-index: 210;
+  z-index: 9990;
   height: 100px;
   width: 100%;
   position: fixed;
