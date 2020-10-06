@@ -340,7 +340,7 @@ a:hover{
 }
 
 .card {
-  z-index: -210;
+  z-index: 210;
   position: relative;
   background: white;
   width: 280px;
